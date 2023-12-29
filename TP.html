@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="TP.css">
+</head>
+<body>
+    <!-- Main container for the ToDo List -->
+    <div class="main">
+    <!-- Heading of the ToDo List -->
+        <h1>TO DO LIST</h1>
+    
+    <!-- Form for adding tasks -->
+       <form class="form">
+    <!-- Input field for entering a new task -->
+            <input id="inputtask" type="text" placeholder="Enter your task here" />
+    <!-- Button to submit the form and add a new task -->
+            <input id="addbutton" value="Add Task" type="submit" />
+       </form>
+    
+    <!-- Ordered list to display the tasks -->
+        <ol class="todolist"></ol>
+    
+    <!-- Button to clear all tasks, initially hidden -->
+        <button class="clear d-none">Clear All</button>
+    </div>
+    
+    <!-- Link to GitHub for more Projects -->
+    <div class="link"><a href="https://github.com/yakhilgithub">Visit Github for more<a></div>
+    
+    <!-- JavaScript file for dynamic functionality -->
+    <script src="TP.js"></script>
+</body>
+</html>

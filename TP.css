@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aedff9; 
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #3a3a3a; 
+  font-size: 60px;
+  margin: 0 20px;
+}
+
+.todolist {
+  width: 500px;
+  min-height: 300px;
+  border: 2px solid white;
+  border-radius: 0px 0px 100px 100px;
+  padding: 20px 20px 100px 20px;
+  margin-top: 30px;
+  background-image: radial-gradient(rgba(104, 255, 237, 0.742), rgb(104, 225, 255));
+}
+
+.todolist li {
+  color: #545252; 
+  font-size: 24px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d6b8ff; 
+  word-break: break-word;
+}
+
+li button {
+  float: right;
+  color: #76eef7; 
+  margin-left: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #eadaf6; 
+  transition: 0.2s all ease-in-out;
+}
+
+li button:hover {
+  background-color: #9ff3fd;
+  color: white;
+}
+
+#inputtask {
+  min-width: 300px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0px solid transparent;
+  font-size: 24px;
+  margin-right: 10px;
+  color: #000000; 
+}
+
+#inputtask:focus {
+  outline: none;
+}
+
+#addbutton,
+.clear {
+  color: #2edcff; 
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #ffffff; 
+  transition: 0.3s all ease-in-out;
+}
+
+#addbutton:hover,
+.clear:hover {
+  background-color: rgb(118, 248, 255);
+  color: white;
+  transform: scale(0.97);
+}
+
+.d-none {
+  display: none;
+}
+
+li span:focus {
+  background-color: white;
+  color: #211f1f; 
+  outline: none;
+  padding: 0 5px;
+  display: inline-block;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.link {
+  text-align: center;
+  margin: 20px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+
+.link a {
+  color: #0e0e0e; 
+}
